@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: cursive;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav1 h3{
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+#nav i{
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+#nav h1{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+#nav button{
+    padding: 7px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    /* background-color: white; */
+}
+#btm2{
+    border: none;
+   background-color: orangered;
+   color: white;
+}
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover; /*to fit image as like acctual image*/
+    object-position: top;/*to view the top of the image*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+} 
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#btm3{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 15px;
+}
+#nav4{
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+    font-size: 15px;
+}
+#nav5{
+    position: absolute;
+    bottom: 5%;
+    left: 87%;
+    font-size: 15px;
+}
+#nav6{
+    position: absolute;
+    bottom: 5%;
+    left: 94%;
+    font-size: 15px;
+}
+
+
